@@ -1,0 +1,27 @@
+{
+  "name": "vite-lit-ts-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/form-renderer/form-renderer.es.js",
+  "exports": {
+    ".": "./dist/form-renderer/form-renderer.es.js"
+  },
+  "types": "types/form-renderer/form-renderer.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "formiojs": "4.14.12",
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
